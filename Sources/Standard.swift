@@ -26,12 +26,17 @@
 
 import Foundation
 
-public struct Standard<UnitType> where UnitType: Dimension, UnitType: BasedDimension {
+public struct Standard<UnitType> : Comparable where UnitType: Dimension, UnitType: BasedDimension {
     
     // MARK: Properties
     
     public private(set) var unit: UnitType
     public var value: Double
+    
+    fileprivate var baseValue: Double {
+        guard let baseUnit = type(of: unit).baseUnit() as? UnitType else { return value }
+        return self.converted(to: baseUnit).value
+    }
     
     // MARK: Conversion
     
@@ -56,3 +61,10 @@ public struct Standard<UnitType> where UnitType: Dimension, UnitType: BasedDimen
     
 }
 
+public func < <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension, UnitType: BasedDimension {
+    return lhs.baseValue < rhs.baseValue
+}
+
+public func == <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension, UnitType: BasedDimension {
+    return lhs.baseValue == rhs.baseValue
+}

@@ -27,7 +27,7 @@ has the following features:
 
 - [x] Creating and Converting Standards (e.g. kilometers to miles)
 - [ ] Calculate with Standards (Operators +, -, \*, /)
-- [ ] Compare Standards
+- [x] Compare Standards
 - [ ] Measurement Formatting
 
 Compared to [Measurement](https://developer.apple.com/reference/foundation/Measurement), Standards 

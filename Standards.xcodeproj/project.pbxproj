@@ -43,11 +43,14 @@
 		DF49A5BC1E9CD54C00D52609 /* UnitArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */; };
 		DF49A5BD1E9CD54C00D52609 /* UnitArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */; };
 		DF49A5BE1E9CD54C00D52609 /* UnitArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */; };
-		DF49A5C01E9CD76600D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BF1E9CD76600D52609 /* UnitAreaTests.swift */; };
-		DF49A5C11E9CD76600D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BF1E9CD76600D52609 /* UnitAreaTests.swift */; };
-		DF49A5C21E9CD76600D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5BF1E9CD76600D52609 /* UnitAreaTests.swift */; };
 		DF49A5C31E9CD76A00D52609 /* UnitLengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5B81E9CC84000D52609 /* UnitLengthTests.swift */; };
 		DF49A5C41E9CD76A00D52609 /* UnitLengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5B81E9CC84000D52609 /* UnitLengthTests.swift */; };
+		DF49A5E21E9D0C9400D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */; };
+		DF49A5E31E9D0C9400D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */; };
+		DF49A5E41E9D0C9400D52609 /* UnitAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */; };
+		DF49A5E61E9D0CA800D52609 /* StandardComparableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E51E9D0CA800D52609 /* StandardComparableTests.swift */; };
+		DF49A5E71E9D0CA800D52609 /* StandardComparableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E51E9D0CA800D52609 /* StandardComparableTests.swift */; };
+		DF49A5E81E9D0CA800D52609 /* StandardComparableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49A5E51E9D0CA800D52609 /* StandardComparableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,10 +96,11 @@
 		DF49A59F1E9CC80900D52609 /* UnitLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitLength.swift; sourceTree = "<group>"; };
 		DF49A5B81E9CC84000D52609 /* UnitLengthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitLengthTests.swift; path = Tests/StandardsTests/UnitLengthTests.swift; sourceTree = SOURCE_ROOT; };
 		DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitArea.swift; sourceTree = "<group>"; };
-		DF49A5BF1E9CD76600D52609 /* UnitAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitAreaTests.swift; sourceTree = "<group>"; };
 		DF49A5C51E9CD9E700D52609 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DF49A5C61E9CD9E700D52609 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DF49A5C71E9CD9E700D52609 /* Standards.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Standards.podspec; sourceTree = "<group>"; };
+		DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitAreaTests.swift; path = Tests/StandardsTests/UnitAreaTests.swift; sourceTree = SOURCE_ROOT; };
+		DF49A5E51E9D0CA800D52609 /* StandardComparableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardComparableTests.swift; path = Tests/StandardsTests/StandardComparableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			children = (
 				DF49A5D41E9CD9F800D52609 /* Metadata */,
 				52D6D9961BEFF375002C0205 /* Standard.swift */,
+				DF49A5E51E9D0CA800D52609 /* StandardComparableTests.swift */,
 				DF49A59B1E9CC80900D52609 /* Unit */,
 				DF49A5981E9CC80900D52609 /* Conversion */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
@@ -225,7 +230,7 @@
 				DF49A59F1E9CC80900D52609 /* UnitLength.swift */,
 				DF49A5B81E9CC84000D52609 /* UnitLengthTests.swift */,
 				DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */,
-				DF49A5BF1E9CD76600D52609 /* UnitAreaTests.swift */,
+				DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */,
 			);
 			name = Unit;
 			path = Sources/Unit;
@@ -536,8 +541,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF49A5C01E9CD76600D52609 /* UnitAreaTests.swift in Sources */,
 				DF49A5B91E9CC84000D52609 /* UnitLengthTests.swift in Sources */,
+				DF49A5E21E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				DF49A5E61E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,8 +596,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF49A5C11E9CD76600D52609 /* UnitAreaTests.swift in Sources */,
 				DF49A5C31E9CD76A00D52609 /* UnitLengthTests.swift in Sources */,
+				DF49A5E31E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				DF49A5E71E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,8 +606,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF49A5C21E9CD76600D52609 /* UnitAreaTests.swift in Sources */,
 				DF49A5C41E9CD76A00D52609 /* UnitLengthTests.swift in Sources */,
+				DF49A5E41E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				DF49A5E81E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
