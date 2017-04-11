@@ -15,20 +15,20 @@ these systems’s Foundation.
 
 ## Compatibility
 
--[x] iOS 8.0
--[x] tvOS 9.0
--[x] watchOS 2.0
--[x] macOS 10.10
+- [x] iOS 8.0
+- [x] tvOS 9.0
+- [x] watchOS 2.0
+- [x] macOS 10.10
 
 ## Features
 
 Compared to [Measurement](https://developer.apple.com/reference/foundation/Measurement), Standards
 has the following features:
 
--[x] Creating and Converting Standards (e.g. kilometers to miles)
--[ ] Calculate with Standards (Operators +, -, *, /)
--[ ] Compare Standards
--[ ] Measurement Formatting
+- [x] Creating and Converting Standards (e.g. kilometers to miles)
+- [ ] Calculate with Standards (Operators +, -, \*, /)
+- [ ] Compare Standards
+- [ ] Measurement Formatting
 
 Compared to [Measurement](https://developer.apple.com/reference/foundation/Measurement), Standards 
 supports the following Units:
