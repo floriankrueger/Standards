@@ -33,14 +33,14 @@ import Foundation
 ///
 /// - Note: The `baseUnit` is `.squareMeters`
 ///
-public class UnitArea: Dimension, BasedDimension {
+public class UnitArea: Dimension {
     
     // MARK: BasedDimension
     
-    public class func baseUnit() -> UnitArea {
+    public override class func baseUnit() -> UnitArea {
         return UnitArea.squareMeters
     }
-    
+
     // MARK: Init
     
     public override init(symbol: String, converter: UnitConverter) {
