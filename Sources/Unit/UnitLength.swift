@@ -33,11 +33,11 @@ import Foundation
 ///
 /// - Note: The `baseUnit` is `.meters`
 ///
-public class UnitLength: Dimension, BasedDimension {
+public class UnitLength: Dimension {
     
     // MARK: BasedDimension
     
-    public class func baseUnit() -> UnitLength {
+    public override class func baseUnit() -> UnitLength {
         return UnitLength.meters
     }
     

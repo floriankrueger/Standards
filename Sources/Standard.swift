@@ -26,7 +26,7 @@
 
 import Foundation
 
-public struct Standard<UnitType> : Comparable where UnitType: Dimension, UnitType: BasedDimension {
+public struct Standard<UnitType> : Comparable where UnitType: Dimension {
     
     // MARK: Properties
     
@@ -34,7 +34,7 @@ public struct Standard<UnitType> : Comparable where UnitType: Dimension, UnitTyp
     public var value: Double
     
     fileprivate var baseValue: Double {
-        guard let baseUnit = type(of: unit).baseUnit() as? UnitType else { return value }
+        let baseUnit = type(of: unit).baseUnit()
         return self.converted(to: baseUnit).value
     }
     
@@ -61,10 +61,10 @@ public struct Standard<UnitType> : Comparable where UnitType: Dimension, UnitTyp
     
 }
 
-public func < <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension, UnitType: BasedDimension {
+public func < <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension {
     return lhs.baseValue < rhs.baseValue
 }
 
-public func == <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension, UnitType: BasedDimension {
+public func == <UnitType>(lhs: Standard<UnitType>, rhs: Standard<UnitType>) -> Bool where UnitType: Dimension {
     return lhs.baseValue == rhs.baseValue
 }

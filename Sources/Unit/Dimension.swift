@@ -38,5 +38,9 @@ public class Dimension: Unit {
         self.converter = converter
         super.init(symbol: symbol)
     }
+
+    class func baseUnit() -> Self {
+        fatalError("Dimension is an abstract class that does not provide a `baseUnit`.")
+    }
     
 }
