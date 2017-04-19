@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "Standards"
   s.version      = "0.1"
-  s.summary      = ""
+  s.summary      = "Backport of Foundations’ Measurements API"
   s.description  = <<-DESC
-    Your description here.
+    Enables developers to use Foundations’ Measurements API all the way down to iOS 8.0.
   DESC
   s.homepage     = "https://github.com/floriankrueger/Standards"
   s.license      = { :type => "MIT", :file => "LICENSE" }
