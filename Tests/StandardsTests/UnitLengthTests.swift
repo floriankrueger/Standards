@@ -237,13 +237,13 @@ class UnitLengthTests: XCTestCase {
     
     func testNauticalMiles() {
         
-        let distance = Standard(value: 1, unit: UnitLength.nautical​Miles)
+        let distance = Standard(value: 1, unit: UnitLength.nauticalMiles)
         
-        let linearConverter = Standards.UnitLength.nautical​Miles.converter as! Standards.UnitConverterLinear
+        let linearConverter = Standards.UnitLength.nauticalMiles.converter as! Standards.UnitConverterLinear
         XCTAssertEqual(distance.converted(to: baseUnit).value, linearConverter.coefficient)
         
         let baseDistance = Standard(value: linearConverter.coefficient, unit: baseUnit)
-        XCTAssertEqual(baseDistance.converted(to: .nautical​Miles).value, 1)
+        XCTAssertEqual(baseDistance.converted(to: .nauticalMiles).value, 1)
         
     }
     

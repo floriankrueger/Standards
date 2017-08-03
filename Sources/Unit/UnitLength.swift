@@ -209,7 +209,7 @@ extension UnitLength {
     ///
     /// Returns the nautical​Miles unit of length.
     ///
-    public static var nautical​Miles: UnitLength {
+    public static var nauticalMiles: UnitLength {
         return UnitLength(symbol: "NM",
                           converter: UnitConverterLinear(coefficient: 1_852.0))
     }
