@@ -26,7 +26,7 @@
 
 import Foundation
 
-/// The Unit​Length class is an `Dimension` subclass that encapsulates units of measure for length.
+/// The UnitLength class is an `Dimension` subclass that encapsulates units of measure for length.
 ///
 /// You typically use instances of `UnitLength` to represent specific quantities of length using the
 /// `Standards` class.
@@ -189,9 +189,9 @@ extension UnitLength {
     
     /// Scandinavian Miles
     ///
-    /// Returns the scandinavian​Miles unit of length.
+    /// Returns the scandinavianMiles unit of length.
     ///
-    public static var scandinavian​Miles: UnitLength {
+    public static var scandinavianMiles: UnitLength {
         return UnitLength(symbol: "smi",
                           converter: UnitConverterLinear(coefficient: 10_000.0))
     }
@@ -207,7 +207,7 @@ extension UnitLength {
     
     /// Nautical Miles
     ///
-    /// Returns the nautical​Miles unit of length.
+    /// Returns the nauticalMiles unit of length.
     ///
     public static var nauticalMiles: UnitLength {
         return UnitLength(symbol: "NM",
@@ -234,9 +234,9 @@ extension UnitLength {
     
     /// Astronomical Units
     ///
-    /// Returns the astronomical​Units unit of length.
+    /// Returns the astronomicalUnits unit of length.
     ///
-    public static var astronomical​Units: UnitLength {
+    public static var astronomicalUnits: UnitLength {
         return UnitLength(symbol: "ua",
                           converter: UnitConverterLinear(coefficient: 1.496e+11))
     }

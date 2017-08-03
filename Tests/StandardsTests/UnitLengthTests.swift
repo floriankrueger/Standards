@@ -213,13 +213,13 @@ class UnitLengthTests: XCTestCase {
     
     func testScandinavianMiles() {
         
-        let distance = Standard(value: 1, unit: UnitLength.scandinavian​Miles)
+        let distance = Standard(value: 1, unit: UnitLength.scandinavianMiles)
         
-        let linearConverter = Standards.UnitLength.scandinavian​Miles.converter as! Standards.UnitConverterLinear
+        let linearConverter = Standards.UnitLength.scandinavianMiles.converter as! Standards.UnitConverterLinear
         XCTAssertEqual(distance.converted(to: baseUnit).value, linearConverter.coefficient)
         
         let baseDistance = Standard(value: linearConverter.coefficient, unit: baseUnit)
-        XCTAssertEqual(baseDistance.converted(to: .scandinavian​Miles).value, 1)
+        XCTAssertEqual(baseDistance.converted(to: .scandinavianMiles).value, 1)
         
     }
     
@@ -273,13 +273,13 @@ class UnitLengthTests: XCTestCase {
     
     func testAstronomicalUnits() {
         
-        let distance = Standard(value: 1, unit: UnitLength.astronomical​Units)
+        let distance = Standard(value: 1, unit: UnitLength.astronomicalUnits)
         
-        let linearConverter = Standards.UnitLength.astronomical​Units.converter as! Standards.UnitConverterLinear
+        let linearConverter = Standards.UnitLength.astronomicalUnits.converter as! Standards.UnitConverterLinear
         XCTAssertEqual(distance.converted(to: baseUnit).value, linearConverter.coefficient)
         
         let baseDistance = Standard(value: linearConverter.coefficient, unit: baseUnit)
-        XCTAssertEqual(baseDistance.converted(to: .astronomical​Units).value, 1)
+        XCTAssertEqual(baseDistance.converted(to: .astronomicalUnits).value, 1)
         
     }
     
