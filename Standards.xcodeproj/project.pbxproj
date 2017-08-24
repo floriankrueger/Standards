@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229869041F3063B2008751AC /* UnitTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869031F3063B2008751AC /* UnitTemperature.swift */; };
+		229869071F306792008751AC /* UnitTemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869051F3064FF008751AC /* UnitTemperatureTests.swift */; };
+		229869081F306799008751AC /* UnitTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869031F3063B2008751AC /* UnitTemperature.swift */; };
+		229869091F306799008751AC /* UnitTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869031F3063B2008751AC /* UnitTemperature.swift */; };
+		2298690A1F30679A008751AC /* UnitTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869031F3063B2008751AC /* UnitTemperature.swift */; };
+		2298690B1F30679D008751AC /* UnitTemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869051F3064FF008751AC /* UnitTemperatureTests.swift */; };
+		2298690C1F30679D008751AC /* UnitTemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229869051F3064FF008751AC /* UnitTemperatureTests.swift */; };
+		2298690E1F306B5A008751AC /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690D1F306B5A008751AC /* UnitSpeed.swift */; };
+		229869111F306C73008751AC /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690D1F306B5A008751AC /* UnitSpeed.swift */; };
+		229869121F306C74008751AC /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690D1F306B5A008751AC /* UnitSpeed.swift */; };
+		229869131F306C74008751AC /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690D1F306B5A008751AC /* UnitSpeed.swift */; };
+		229869141F306C78008751AC /* UnitSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690F1F306B6A008751AC /* UnitSpeedTests.swift */; };
+		229869151F306C78008751AC /* UnitSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690F1F306B6A008751AC /* UnitSpeedTests.swift */; };
+		229869161F306C79008751AC /* UnitSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298690F1F306B6A008751AC /* UnitSpeedTests.swift */; };
 		52D6D9871BEFF229002C0205 /* Standards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Standards.framework */; };
 		52D6D9981BEFF375002C0205 /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Standard.swift */; };
 		52D6D9EA1BEFFFA4002C0205 /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9961BEFF375002C0205 /* Standard.swift */; };
@@ -74,6 +88,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		229869031F3063B2008751AC /* UnitTemperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTemperature.swift; sourceTree = "<group>"; };
+		229869051F3064FF008751AC /* UnitTemperatureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitTemperatureTests.swift; path = Tests/StandardsTests/UnitTemperatureTests.swift; sourceTree = SOURCE_ROOT; };
+		2298690D1F306B5A008751AC /* UnitSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitSpeed.swift; sourceTree = "<group>"; };
+		2298690F1F306B6A008751AC /* UnitSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitSpeedTests.swift; path = Tests/StandardsTests/UnitSpeedTests.swift; sourceTree = SOURCE_ROOT; };
 		52D6D97C1BEFF229002C0205 /* Standards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Standards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Standards-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standards-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9961BEFF375002C0205 /* Standard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Standard.swift; path = Sources/Standard.swift; sourceTree = "<group>"; };
@@ -225,6 +243,10 @@
 				DF49A5B81E9CC84000D52609 /* UnitLengthTests.swift */,
 				DF49A5BA1E9CD54C00D52609 /* UnitArea.swift */,
 				DF49A5E11E9D0C9400D52609 /* UnitAreaTests.swift */,
+				229869031F3063B2008751AC /* UnitTemperature.swift */,
+				229869051F3064FF008751AC /* UnitTemperatureTests.swift */,
+				2298690D1F306B5A008751AC /* UnitSpeed.swift */,
+				2298690F1F306B6A008751AC /* UnitSpeedTests.swift */,
 			);
 			name = Unit;
 			path = Sources/Unit;
@@ -525,7 +547,9 @@
 				DF49A5A01E9CC80900D52609 /* UnitConverter.swift in Sources */,
 				52D6D9981BEFF375002C0205 /* Standard.swift in Sources */,
 				DF49A5B01E9CC80900D52609 /* Unit.swift in Sources */,
+				2298690E1F306B5A008751AC /* UnitSpeed.swift in Sources */,
 				DF49A5AC1E9CC80900D52609 /* Dimension.swift in Sources */,
+				229869041F3063B2008751AC /* UnitTemperature.swift in Sources */,
 				DF49A5A41E9CC80900D52609 /* UnitConverterLinear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +560,8 @@
 			files = (
 				DF49A5B91E9CC84000D52609 /* UnitLengthTests.swift in Sources */,
 				DF49A5E21E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				229869141F306C78008751AC /* UnitSpeedTests.swift in Sources */,
+				229869071F306792008751AC /* UnitTemperatureTests.swift in Sources */,
 				DF49A5E61E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,7 +575,9 @@
 				DF49A5A21E9CC80900D52609 /* UnitConverter.swift in Sources */,
 				52D6D9EA1BEFFFA4002C0205 /* Standard.swift in Sources */,
 				DF49A5B21E9CC80900D52609 /* Unit.swift in Sources */,
+				229869121F306C74008751AC /* UnitSpeed.swift in Sources */,
 				DF49A5AE1E9CC80900D52609 /* Dimension.swift in Sources */,
+				229869091F306799008751AC /* UnitTemperature.swift in Sources */,
 				DF49A5A61E9CC80900D52609 /* UnitConverterLinear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,7 +591,9 @@
 				DF49A5A31E9CC80900D52609 /* UnitConverter.swift in Sources */,
 				52D6DA091BF00081002C0205 /* Standard.swift in Sources */,
 				DF49A5B31E9CC80900D52609 /* Unit.swift in Sources */,
+				229869131F306C74008751AC /* UnitSpeed.swift in Sources */,
 				DF49A5AF1E9CC80900D52609 /* Dimension.swift in Sources */,
+				2298690A1F30679A008751AC /* UnitTemperature.swift in Sources */,
 				DF49A5A71E9CC80900D52609 /* UnitConverterLinear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,7 +607,9 @@
 				DF49A5A11E9CC80900D52609 /* UnitConverter.swift in Sources */,
 				52D6DA261BF00118002C0205 /* Standard.swift in Sources */,
 				DF49A5B11E9CC80900D52609 /* Unit.swift in Sources */,
+				229869111F306C73008751AC /* UnitSpeed.swift in Sources */,
 				DF49A5AD1E9CC80900D52609 /* Dimension.swift in Sources */,
+				229869081F306799008751AC /* UnitTemperature.swift in Sources */,
 				DF49A5A51E9CC80900D52609 /* UnitConverterLinear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +620,8 @@
 			files = (
 				DF49A5C31E9CD76A00D52609 /* UnitLengthTests.swift in Sources */,
 				DF49A5E31E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				229869151F306C78008751AC /* UnitSpeedTests.swift in Sources */,
+				2298690B1F30679D008751AC /* UnitTemperatureTests.swift in Sources */,
 				DF49A5E71E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,6 +632,8 @@
 			files = (
 				DF49A5C41E9CD76A00D52609 /* UnitLengthTests.swift in Sources */,
 				DF49A5E41E9D0C9400D52609 /* UnitAreaTests.swift in Sources */,
+				229869161F306C79008751AC /* UnitSpeedTests.swift in Sources */,
+				2298690C1F30679D008751AC /* UnitTemperatureTests.swift in Sources */,
 				DF49A5E81E9D0CA800D52609 /* StandardComparableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
