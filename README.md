@@ -51,8 +51,8 @@ supports the following Units:
 - [ ] Mass: [UnitMass](https://developer.apple.com/reference/foundation/unitmass)
 - [ ] Power: [UnitPower](https://developer.apple.com/reference/foundation/unitpower)
 - [ ] Pressure: [UnitPressure](https://developer.apple.com/reference/foundation/unitpressure)
-- [ ] Speed: [UnitSpeed](https://developer.apple.com/reference/foundation/unitspeed)
-- [ ] Temperature: [UnitTemperature](https://developer.apple.com/reference/foundation/unittemperature)
+- [x] Speed: [UnitSpeed](https://developer.apple.com/reference/foundation/unitspeed) (thx @samritchie)
+- [x] Temperature: [UnitTemperature](https://developer.apple.com/reference/foundation/unittemperature) (thx @samritchie)
 - [ ] Volume: [UnitVolume](https://developer.apple.com/reference/foundation/unitvolume)
 
 ## Remarks
@@ -121,6 +121,14 @@ To do it 'by hand' take the following files and add them to your project:
 
 - `Sources/Unit/UnitLength.swift`
 - `Sources/Unit/UnitArea.swift`
+- `Sources/Unit/UnitSpeed.swift`
+- `Sources/Unit/UnitTemperature.swift`
+
+## Contributors
+
+Thanks for contributing to this project!
+
+- [Sam Ritchie](https://github.com/samritchie)
 
 ## License
 
