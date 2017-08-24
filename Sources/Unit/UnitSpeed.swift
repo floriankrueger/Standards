@@ -2,7 +2,7 @@
 //  UnitSpeed.swift
 //  Standards
 //
-//  Created by Sam Ritchie 1 Aug 2017.
+//  Created by Sam Ritchie on 1 Aug 2017.
 //  Copyright © 2017 Standards. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
